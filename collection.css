@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #ffff}
+.collapse{
+    margin-left: 250px;
+}
+.navgetstarted {
+    background-color:#9747ff;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+}
+.styles{
+   
+margin-top:50px;
+}
+.styles .row{
+    background-color: #000000;
+    color: #ffff;
+    border-radius: 10px;
+
+
+}
+.styles h2{
+    font-family: 'Post No Bills Colombo ExtraBold', sans-serif;
+    margin-top: 100px;
+    font-size: 57px;
+    text-align: center;
+    font-weight: 700;
+}

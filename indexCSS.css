@@ -1,0 +1,225 @@
+.navbar{
+    background-color: #ffff}
+.collapse{
+    margin-left: 250px;
+}
+.navgetstarted {
+    background-color:#9747ff;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+}
+.navbar-nav{
+    left: 0px;
+}
+.shopnow{
+    background-color:#9747ff;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+}
+.abcdef{
+    background-color:#9747ff ;
+    color:#ffff;
+    border-radius: 100px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  55px;
+    height: 55px;
+   
+}
+.divh192{    font-weight: 600;
+    font-size: 5vw;
+    color: #9747ff;
+    margin-top: 6px;
+    margin-left: 219px;
+    position: absolute;
+    z-index: -1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image-men{
+    margin-left: 33px; max-inline-size: 100%;
+    block-size: auto;
+}
+.div-color{
+    background-color: #9747ff;
+ 
+    z-index: -1;
+    width: 100%;
+    height: 161px;
+    bottom: 0; border-top-left-radius: 10px; /* Apply border radius to top left corner */
+    border-bottom-left-radius: 10px; 
+}
+.contact{
+    font-size: 26px;
+    font-weight:700;
+    margin-top: 10px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icon-svg{
+    border: 1px solid #9747FF;
+    padding: 10px;
+    padding-top: 7px;
+    border-radius: 10px;
+    background: white;
+    color: #9747FF;
+}
+
+.contactus h2{
+
+    margin-top: 60px;
+}
+.footer{
+    position: relative;
+}
+.email{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    
+}
+.footer-end{
+
+}
+.send{
+    margin-left: 54px;
+
+}
+.send h5{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.email-forms{
+    border-radius: 10px;
+    margin: 50px;
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+.email-forms input{
+
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+.email-forms label {
+    font-weight: 500;
+}
+.email-forms .vehicle2 {
+    margin-bottom: 10px;
+}
+.email-forms button{
+    font-size: larger;
+    width: 100%;
+    background-color: #9747ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#vehicle3{
+    margin-top: 10px;
+    width: 30px;
+    height: 25px;
+}
+
+@media (max-width:1000px){
+    .email{
+        top: 214px;
+        }
+
+.email-forms {
+    width: 50%;
+    top: 40px;
+}
+.send h5{
+    color: white;
+}
+    
+}
+@media (max-width: 817px) {
+    .dress-2{
+        margin-top: 10px;
+    }
+    .collapse{
+        margin-left: 1px;    }
+
+    .divh192{
+        display:none
+
+    }
+}
+@media (max-width:600px) {
+    .email-forms{
+        width: 100%;
+        margin: 0px;
+    }
+ 
+    
+}
+   
+
+@media (max-width:430px) {
+    .email-forms{
+        width: 100%;
+        margin: 0px;
+    }
+    .div-color{
+        width: 100%;
+        height: 125px;
+    
+    }
+    
+}
+    @media (max-width:400px) {
+        .image-men{
+            margin-left: 8px;
+        }
+            .collapse{            margin-left: 1px;
+            }
+        
+    }
+    @media (max-width:240px) {
+        .icons{
+            gap: 5px;
+        }
+        .icon-svg{
+            border: 1px solid #9747FF;
+            padding: 5px;
+            padding-top:0px;
+            border-radius: 10px;
+            background: white;
+            color: #9747FF;
+        }
+        .icon-svg svg{
+            width:20px;
+             height:20px;
+        }
+        
+        
+    }
+
+
+
+ /* @media (max-width: 582) {
+    .navbar-brand {
+      display: block;
+      text-align: center; 
+    } */
+    
+                                        /* category */

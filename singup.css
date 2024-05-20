@@ -1,0 +1,59 @@
+.singbox form{
+    border: 1px solid black;
+    padding: 40px;
+    padding-top: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.singbox form p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.singbox form p a{
+    font-weight: 500;
+    font-size: large;
+
+   
+}
+.kotler{
+text-align: center;
+align-items: center;
+    margin-top: 40px;
+
+}
+.image-men{
+    margin-left: 10px;
+} 
+.singin{
+    margin-top: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+.loging a{
+    color: blueviolet;
+}
+@media (max-width:778px) {
+    .singbox form{
+        margin: 10px;
+        background-image: url();
+    }
+    .image-men{
+        display: none;
+    }
+    .kotler{
+        text-align: center;
+      align-items: center;
+    margin-top: 40px;
+    }
+
+}
+@media (max-width:450px) {
+    .singbox form{
+        container: none;
+        background-color: rgba(176, 115, 234, 0.395);
+    }
+    .loging a{
+        color: black;
+    }
+}
+    
