@@ -1,7 +1,7 @@
 .navbar{
     background-color: #ffff}
 .collapse{
-    margin-left: 250px;
+    margin-left: 380px;
 }
 .navgetstarted {
     background-color:#9747ff;
@@ -9,22 +9,169 @@
     border: none;
     border-radius: 5px;
     width: 130px;
+
 }
-.styles{
-   
-margin-top:50px;
+
+main{
+    margin-top: 30px;
 }
-.styles .row{
-    background-color: #000000;
-    color: #ffff;
+.row-1{
+    height: 353px;
     border-radius: 10px;
-
-
 }
-.styles h2{
+.main-image{
+}
+.main-text{
     font-family: 'Post No Bills Colombo ExtraBold', sans-serif;
-    margin-top: 100px;
-    font-size: 57px;
-    text-align: center;
-    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+section{
+    margin-top:30px ;
+}
+
+form select{
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #9747ff;
+    color: white;
+
+}
+.option-div{
+    display: flex;
+    gap: 10px;
+}
+.trending h1{
+    font-size: 29px;
+    font-weight: 500;
+
+}
+/*============== colection div=================== */
+item {
+    background-color: #ffff;
+    width: 100%;
+  }
+  
+  .collect {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+  
+  .product-image img{
+      width: 100%;
+      background-color: #ba88fbd6;
+  
+  }
+  
+  
+  
+  .name-price {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name-price h4 {
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button {
+    padding: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: #ffff;
+    border-radius: 5px;
+  }
+  
+  .buttons button a {
+    color: #ffff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 910px) {
+    .collect {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5px;
+    }
+  }
+  @media (max-width: 800px) {
+    .name-price h5{
+  
+      font-size: 17px;
+      font-weight: 500;
+    
+    }
+    .name-price h4{
+  
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .buttons button {
+    padding-top: 0px;
+    }
+    .buy a{
+      font-size: 13px;
+      font-weight: 500;
+    }
+   
+    .cart a{
+      font-size: 13px;
+      font-weight: 500;
+    }
+  
+    }
+  
+  
+  
+  /* ipad */
+  @media screen and (max-width: 650px) {
+    .collect {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+    }
+   
+   
+  
+   
+  
+  
+  }
+  
+  /* mobile */
+  @media screen and (max-width: 479px) {
+    .collect {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0px;
+    }
+  }
+
+
+
+/* media qury */
+
+/* ipod */
+@media screen and (max-width:800px){
+
+ 
+}
+
+/* mobile */
+@media screen and (max-width:400px){
+
+    
+}
+
+
+
+font-family: 'Post No Bills Colombo ExtraBold', sans-serif;

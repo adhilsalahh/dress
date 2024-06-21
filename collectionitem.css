@@ -1,128 +1,118 @@
-/* .item{
-background-color: #ffff;
-}
-.main-div{
-display: flex;
-justify-content: center;
-align-items: center;
+/* 
+    * {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
 
-}
-.collect{
-    display: flex;
-}
-.item{
-    width: 270px;
-    margin-top: 10px;
-}
-.item img{
-    width: 261px;
-    height: 288.8px;
-
-}
-.name-price{
-    margin-top: 10px;
-    display: flex;
-}
-.name-price h4{
-    margin-left: 127px;
-}
-.buttons{
-    display: flex;
-
-}
-.buttons .buy{
-    margin-left: 86px;
-}
-
-.buttons button{
-    padding: 5px;
-    border: none;
-    background-color: blueviolet;
-    color: #ffff;
-    border-radius: 5px;
-}
-.buttons button a{
-    color: #ffff;
-    text-decoration: none;
-}
-/* @media (max-width:300px) {
-    .item img{
-        width: 200px;
-        height: 200.8px;
-    
-    }
-
-    
-} */ */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.main-div {
-    width: 100%;
-    padding: 20px;
-}
-
+/* .item {
+  background-color: #ffff;
+  width: 100%;
+} */
+/* 
 .collect {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
 }
 
-.item {
-    flex: 1 1 21%;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.item img {
+.product-image img{
     width: 100%;
-    height: auto;
-    display: block;
+    background-color: #ba88fbd6;
+
 }
+
+
 
 .name-price {
-    padding: 10px 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-price h4 {
 }
 
 .buttons {
-    display: flex;
-    gap: 10px;
-    margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.buttons a {
-    text-decoration: none;
-    color: white;
+.buttons button {
+  padding: 5px;
+  border: none;
+  background-color: blueviolet;
+  color: #ffff;
+  border-radius: 5px;
 }
 
-.cart, .buy {
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+.buttons button a {
+  color: #ffff;
+  text-decoration: none;
+} */
+/* 
+@media (max-width: 910px) {
+  .collect {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
 }
+@media (max-width: 800px) {
+  .name-price h5{
 
-.cart {
-    background-color: #4CAF50; /* Green */
-}
+    font-size: 17px;
+    font-weight: 500;
+  
+  }
+  .name-price h4{
 
-.buy {
-    background-color: #008CBA; /* Blue */
-}
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .buttons button {
+  padding-top: 0px;
+  }
+  .buy a{
+    font-size: 13px;
+    font-weight: 500;
+  }
+ 
+  .cart a{
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  } */
+
+
+
+/* ipad */
+/* @media screen and (max-width: 650px) {
+  .collect {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+ 
+ 
+
+ 
+
+
+} */
+
+/* mobile */
+/* @media screen and (max-width: 479px) {
+  .collect {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+  }
+} */
+
+
 
 /* Responsive layout */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .item {
         flex: 1 1 45%;
     }
@@ -132,4 +122,6 @@ body {
     .item {
         flex: 1 1 100%;
     }
-}
+} */
+
+.

@@ -1,0 +1,104 @@
+/* .grid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+  } */
+  /* .item{
+    padding: 30px;
+  
+  
+  } */
+  /* .div-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+  }
+  .img-flu{
+    max-width: 100%;
+
+    height: 555px;
+  } */
+  /* .div-2{
+    background: rgba(228, 139, 6, 0.208);
+    
+  }
+  .div-3{
+    background: rgb(234, 21, 21);
+    
+  } */
+
+  .checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the label */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/* Hide the default checkbox */
+.checkbox-input {
+    display: none;
+}
+
+/* Custom checkbox appearance */
+.checkbox-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+/* Checkmark appearance */
+.checkbox-custom::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 5px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+/* Checkbox checked state */
+.checkbox-input:checked + .checkbox-custom {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+/* Show checkmark when checked */
+.checkbox-input:checked + .checkbox-custom::after {
+    opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .checkbox-label {
+        font-size: 1rem;
+    }
+    
+    .checkbox-custom {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .checkbox-custom::after {
+        width: 8px;
+        height: 4px;
+    }
+}

@@ -1,0 +1,111 @@
+
+
+/* resat */
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+/* headder */
+header{
+    background-color: black;
+    padding: 14px 48px ;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo h1{
+    color: white;
+}
+
+.navb ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navb a{
+    color: white;
+    padding:10px 8px ;
+ text-decoration: none;
+ font-size: 17px;
+ margin: 0 20px;
+
+}
+.navb ul :last-child a{
+    padding-right: 0;
+}
+.navb li a:hover{
+    color: rgba(255, 0, 0, 0.722);
+}
+.navb li a {
+    transition: color ease-in 0.5s;
+}
+.navb li .active a{
+    border-bottom: 3px solid red;
+}
+.hero{
+    position: relative;
+
+}
+.hero .h1tage{
+    position: absolute;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%);
+
+}
+/* ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header .navbr{
+   
+    display: flex;
+
+
+}
+.navbr a{
+    display: block;
+    text-decorat on: none;
+    color: black;
+    margin:0 20px;
+    font-size: 22px;
+}
+.collection  .colection-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+.collection  .colection-item li{
+    flex: 200px;
+
+}
+.collection  .colection-item li .item img{
+    width: 100%;
+} */
