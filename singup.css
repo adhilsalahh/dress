@@ -1,8 +1,92 @@
+
+/* ===========nave bar============== */
+.navbar{
+    background-color: #ffff}
+.collapse{
+    margin-left: 296px;
+}
+.navgetstarted {
+    background-color:#9747ff;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+}
+.navbar-nav{
+    left: 0px;
+    gap: 10px;
+}
+.nav-item{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+.nav-item a{
+
+    font-size:larger;
+    color: black;
+}
+.nav-item span{
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: #9747ff;
+    transition: all 0.6s;
+
+}
+.nav-item:hover span{
+
+    width: 100%;
+}
+
+
+.search-div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+  
+    
+    
+}
+.searchTerm {
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    
+  }
+  ::placeholder{
+    color: #9747ff;
+    padding-left: 2px;  }
+ 
+
+  
+  .searchTerm:hover {
+    border: 2px solid black;
+  }
+  .searchButton{
+    border: none;
+    position: absolute;
+    margin-left: 164px;
+    background-color: transparent;
+  }
+  .searchButton svg{
+
+    margin-bottom: 4px;
+    margin-right: 4px;
+  }
+  /* =======================navebar================== */
+  .container{
+    margin: 50px;
+  }
+
 .singbox form{
     border: 1px solid black;
-    padding: 40px;
-    padding-top: 20px;
-    margin: 30px;
+   
     border-radius: 10px;
 }
 .singbox form p{
@@ -32,7 +116,13 @@ align-items: center;
 .loging a{
     color: blueviolet;
 }
-@media (max-width:778px) {
+@media(max-width:1097) {
+    .collapse{
+        margin-left: 166px;
+    }
+    
+}
+@media (max-width:757px) {
     .singbox form{
         margin: 10px;
         background-image: url();

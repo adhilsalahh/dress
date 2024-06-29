@@ -162,16 +162,38 @@ item {
 
 /* ipod */
 @media screen and (max-width:800px){
+  .collapse {
+    margin-left: 303px;
+}
+
 
  
 }
 
 /* mobile */
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
+.buttons{
+
+}
+.collapse{
+ 
+    margin-left: 200px;
+}
 
     
 }
 
+@media screen and (max-width:300px){
+  .buttons{
+  
+  }
+  .collapse{
+   
+      margin-left: 80px;
+  }
+  
+      
+  }
 
 
 font-family: 'Post No Bills Colombo ExtraBold', sans-serif;
